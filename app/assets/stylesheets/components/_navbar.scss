@@ -5,6 +5,15 @@
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+
+  a {
+    color: $first;
+  }  
+
+  a:hover{
+    color: $five;
+  }
+
 }
 
 .navbar-lewagon .navbar-brand img {
