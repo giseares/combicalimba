@@ -31,3 +31,63 @@
     </div>
   </div>    
 </div>
+
+<!--PORFOLIOS-->
+<div class="container my-5">
+  <div class="text-center mb-5">
+    <h2>Conoce nuestra propuesta</h2>
+  </div>
+
+  <div class="row d-flex justify-content-around alert-text">
+    <div class="col-12 col-lg-3 card-trip mr-2 mb-2">
+      <figure>
+        <%= link_to cl_image_tag("home_servicios_chris-montgomery_punj0v", alt:"Formacion Profesional - ph@chris-montgomery/unsplash", class:"img", :border=>0), portfolios_path %>
+        <div class="card-trip-infos">
+          <div>
+            <h5 class= "m-2 text-center"><strong>Formación Profesional</strong></h5>
+            <p class ="text-center">Sabemos que los programas de capacitación a colaboradores son muy
+            fructíferos para las compañías, permiten afianzar grupos, detectar líderes, generan competencia
+            y facilitan la gestión de cambio.</p>
+          </div>
+        </div>
+        <figcaption>ph:@ChrisMontgomery/Unsplash</figcaption>
+      </figure>
+    </div>
+
+    <div class="col-12 col-lg-3 card-trip mr-2 mb-2">
+      <figure>
+        <%= link_to cl_image_tag("home_servicios_consultoria_oskujb", alt:"Consultoria - ph@combicalimba", class:"img", :border=>0),   portfolios_path(anchor: "consultoria") %>
+        <div class="card-trip-infos">
+          <div>
+            <h5 class= "m-2 text-center"> <strong>Programa de Consultoría</strong></h5>
+            <p class ="text-center">A partir de las necesidades de la gerencia y una serie de entrevistas in situ la mejora de procesos
+            se trata de identificar y abordar las ineficiencias que desperdician recursos/capital y añaden
+            costos.
+            </p>
+          </div>
+        </div>
+        <figcaption>ph:@combicalimba</figcaption>
+      </figure>
+    </div>
+
+    <div class="col-12 col-lg-3 card-trip mr-2 mb-2">
+      <figure>
+        <%= link_to cl_image_tag("home_servcios_coaching_ewabka", alt:"Servicios Coaching - ph@andreaferreira", class:"img", :border=>0), :action => 'coach', :controller => 'pages' %>
+        <div class="card-trip-infos">
+          <div>
+            <h5 class= "m-2 text-center"><strong>Coaching</strong></h5>
+            <p class ="text-center">El coach te ayuda a ver su entorno, abre su visión y le ayuda a pensar en tus habilidades para
+            desarrollar. Un valioso compañero externo que camina a su lado por un tiempo bien definido
+            para que su personal encuentre nuevas soluciones.
+            </p>
+          </div>
+        </div>
+        <figcaption>ph:@andreaferreira</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center align-items-center mt-5">
+    <a class="btn btn-outline-info btn-lg mr-3"  target="_blank" href="https://api.whatsapp.com/send?phone=5491153842626">Empresa</a>
+    <a class="btn btn-outline-warning btn-lg"  target="_blank" href="https://api.whatsapp.com/send?phone=5491153842626">Particular</a>
+  </div>
+</div>

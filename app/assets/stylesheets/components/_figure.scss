@@ -1,0 +1,11 @@
+/* Invisible texto */
+figcaption {
+  display:none; 
+  font-size: 8px;
+  transition: all .5s;
+}
+/* Visible texto */
+figure:hover > figcaption {
+  display:block;
+  transition: all .5s;
+}
