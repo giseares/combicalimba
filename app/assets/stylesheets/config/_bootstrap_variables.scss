@@ -23,3 +23,9 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+// Style anchor elements.
+$link-color:                              $first !default;
+$link-decoration:                         none !default;
+$link-shade-percentage:                   60% !default;
+$link-hover-color:                        $five !default;//shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:                   none !default;
