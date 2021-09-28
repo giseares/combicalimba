@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Combicalimba</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calimba | Profesionales en el Camino</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Calimba Recorriendo America">
+    <meta name="description" content="Profesionales en el camino, cursos de capacitación, gestión de empresas, development">
 
+    <!--FACEBOOK-->
+    <meta property="og:title" content="Calimba - Buceando por America">
+    <meta property="og:image" content="banner.jpg">
+    <meta property="og:description" content="Calimba Buceando por America, sumate a nuestra comunidad">
+    <meta property="og:site_name" content="Profesionales en el Camino"/>
+
+    <!-- FAVICON --> 
+    <%= favicon_link_tag 'favicon-32x32.png'%>
+
+    <!-- RESPONSIVE --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      
+    <!-- JS -->
+    <!-- Este va contra el asset pipeline -->
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <!-- Este llama al archivo aplicationjs - es el archivo entry -->
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
 
@@ -17,5 +34,10 @@
     <%= render 'shared/flashes' %>
 
     <%= yield %>
+    
+    <%= render 'shared/footer' %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
   </body>
 </html>
