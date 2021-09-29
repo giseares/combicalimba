@@ -126,3 +126,24 @@
       grid-template-columns: 1fr;
     }
   }
+
+
+// CARDS BUCEO PRIMEROS AUXILIOS
+.cards-pa{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 16px;
+  flex-grow: 1;
+}
+
+@media(max-width: 992px) {
+  .cards-pa {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards-pa {
+    grid-template-columns: 1fr;
+  }
+}
