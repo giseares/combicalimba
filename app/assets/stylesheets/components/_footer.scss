@@ -71,6 +71,10 @@ footer a{
 footer a:hover{
   color: $four;
 }
+footer ul{
+  list-style: none;
+}
+
 @media (max-width:1100px) {
   footer .content .middle{
     padding-left: 50px;
