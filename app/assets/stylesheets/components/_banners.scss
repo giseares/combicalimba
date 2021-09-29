@@ -136,3 +136,27 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 }
+
+
+// PAGINA DIVE
+.banner-text{
+  display: flex;
+  color:white;
+  align-items: center;
+  height: 300px; 
+  width: auto; 
+  background-color: rgb(166, 199, 199);
+}
+
+.banner-pa{
+  color:white;
+  align-items: center;
+  height: auto; 
+  width: auto; 
+  background-color: rgb(166, 199, 199);
+
+  h2  {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
