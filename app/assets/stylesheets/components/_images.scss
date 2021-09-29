@@ -6,21 +6,13 @@
 }
 
 .imagen-agencia{
-  max-height: 88px;
+  width: 100%;
+  height: 100%;
 }
+
 
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .imagen-agencia {
-    height: auto;
-    width: auto;
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 540px) {
-  .imagen-agencia {
-    max-width: 60%;
-    background-color: aqua;
+    width:30%;
   }
 }
