@@ -31,7 +31,6 @@
   min-height: 33.6px;
 }
 
-
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .banner {
@@ -137,7 +136,6 @@
   }
 }
 
-
 // PAGINA DIVE
 .banner-text{
   display: flex;
@@ -159,4 +157,18 @@
     font-size: 40px;
     font-weight: bold;
   }
+}
+
+//PAGINA PROJECT
+.banner-white{
+  background-color: white;
+
+  .a:hover{
+    background-color: black;
+  }
+}
+
+.banner-white ul{
+  list-style: none;
+  padding: 0;
 }
