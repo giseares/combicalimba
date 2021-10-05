@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get "dive", to: "pages#dive"
   get "project", to: "pages#project"
   get "coach", to: "pages#coach"
+  get "aboutus", to: "pages#aboutus"
   resources :portfolios, only: :index
   resources :articles
   
