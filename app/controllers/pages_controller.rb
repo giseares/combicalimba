@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: %i[home dive project coach aboutus]
+  skip_before_action :authenticate_user!, only: %i[home dive project coach aboutus landing]
 
   def home; end
 
@@ -13,5 +13,7 @@ class PagesController < ApplicationController
   def coach; end
 
   def aboutus; end
+
+  def landing; end
 
 end

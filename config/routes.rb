@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "project", to: "pages#project"
   get "coach", to: "pages#coach"
   get "aboutus", to: "pages#aboutus"
+  get "landing", to: "pages#landing"
   resources :portfolios, only: :index
   resources :articles
   
